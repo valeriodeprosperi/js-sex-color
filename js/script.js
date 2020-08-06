@@ -6,5 +6,5 @@ var genereUtene = prompt("sei maschio o femmina?");
 var nome = document.getElementById('nome_utente');
 // se maschio colore blu
 if (genere == "maschio"){
-
+nome.className = nome.classList + "nomeBlu";
 }
